@@ -1,0 +1,500 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "age": 47,
+            "alcohol_cat6": 0,
+            "b_asbestos": 0,
+            "b_asthma": 0,
+            "b_barratts": 0,
+            "b_benignbreast": 0,
+            "b_bloodcancer": 0,
+            "b_braincancer": 0,
+            "b_breastcancer": 0,
+            "b_cervicalcancer": 0,
+            "b_chronicpan": 0,
+            "b_colitis": 0,
+            "b_colorectal": 0,
+            "b_cop": 0,
+            "b_copd": 0,
+            "b_endometrial": 0,
+            "b_hrt_oest": 0,
+            "b_lungcancer": 0,
+            "b_manicschiz": 0,
+            "b_oesgastric": 0,
+            "b_oralcancer": 0,
+            "b_pancreascancer": 0,
+            "b_ovariancancer": 0,
+            "b_peptic": 0,
+            "b_polyp": 0,
+            "b_pos": 0,
+            "b_prostatecancer": 0,
+            "b_renalcancer": 0,
+            "diabetes_cat": 0,
+            "b_uterinecancer": 0,
+            "ethrisk": 8,
+            "fh_bloodcancer": 0,
+            "fh_breastcancer": 0,
+            "fh_gicancer": 0,
+            "fh_lungcancer": 0,
+            "fh_ovariancancer": 0,
+            "fh_prostatecancer": 0,
+            "smoke_cat": 4,
+            "surv": 10,
+            "height": 178.0,
+            "weight": 78.0,
+            "gender": 1
+        }
+    ],
+    "required": [
+        "age",
+        "alcohol_cat6",
+        "b_asbestos",
+        "b_barratts",
+        "b_bloodcancer",
+        "b_chronicpan",
+        "b_colitis",
+        "b_colorectal",
+        "b_copd",
+        "b_lungcancer",
+        "b_manicschiz",
+        "b_oralcancer",
+        "b_peptic",
+        "b_polyp",
+        "b_renalcancer",
+        "diabetes_cat",
+        "fh_bloodcancer",
+        "fh_gicancer",
+        "fh_lungcancer",
+        "smoke_cat",
+        "gender"
+    ],
+    "properties": {
+        "age": {
+            "$id": "#/properties/age",
+            "type": "integer",
+            "title": "The age schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                47
+            ]
+        },
+        "alcohol_cat6": {
+            "$id": "#/properties/alcohol_cat6",
+            "type": "integer",
+            "title": "The alcohol_cat6 schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_asbestos": {
+            "$id": "#/properties/b_asbestos",
+            "type": "integer",
+            "title": "The b_asbestos schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_asthma": {
+            "$id": "#/properties/b_asthma",
+            "type": "integer",
+            "title": "The b_asthma schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_barratts": {
+            "$id": "#/properties/b_barratts",
+            "type": "integer",
+            "title": "The b_barratts schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_benignbreast": {
+            "$id": "#/properties/b_benignbreast",
+            "type": "integer",
+            "title": "The b_benignbreast schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_bloodcancer": {
+            "$id": "#/properties/b_bloodcancer",
+            "type": "integer",
+            "title": "The b_bloodcancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_braincancer": {
+            "$id": "#/properties/b_braincancer",
+            "type": "integer",
+            "title": "The b_braincancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_breastcancer": {
+            "$id": "#/properties/b_breastcancer",
+            "type": "integer",
+            "title": "The b_breastcancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_cervicalcancer": {
+            "$id": "#/properties/b_cervicalcancer",
+            "type": "integer",
+            "title": "The b_cervicalcancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_chronicpan": {
+            "$id": "#/properties/b_chronicpan",
+            "type": "integer",
+            "title": "The b_chronicpan schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_colitis": {
+            "$id": "#/properties/b_colitis",
+            "type": "integer",
+            "title": "The b_colitis schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_colorectal": {
+            "$id": "#/properties/b_colorectal",
+            "type": "integer",
+            "title": "The b_colorectal schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_cop": {
+            "$id": "#/properties/b_cop",
+            "type": "integer",
+            "title": "The b_cop schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_copd": {
+            "$id": "#/properties/b_copd",
+            "type": "integer",
+            "title": "The b_copd schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_endometrial": {
+            "$id": "#/properties/b_endometrial",
+            "type": "integer",
+            "title": "The b_endometrial schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_hrt_oest": {
+            "$id": "#/properties/b_hrt_oest",
+            "type": "integer",
+            "title": "The b_hrt_oest schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_lungcancer": {
+            "$id": "#/properties/b_lungcancer",
+            "type": "integer",
+            "title": "The b_lungcancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_manicschiz": {
+            "$id": "#/properties/b_manicschiz",
+            "type": "integer",
+            "title": "The b_manicschiz schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_oesgastric": {
+            "$id": "#/properties/b_oesgastric",
+            "type": "integer",
+            "title": "The b_oesgastric schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_oralcancer": {
+            "$id": "#/properties/b_oralcancer",
+            "type": "integer",
+            "title": "The b_oralcancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_pancreascancer": {
+            "$id": "#/properties/b_pancreascancer",
+            "type": "integer",
+            "title": "The b_pancreascancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_ovariancancer": {
+            "$id": "#/properties/b_ovariancancer",
+            "type": "integer",
+            "title": "The b_ovariancancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_peptic": {
+            "$id": "#/properties/b_peptic",
+            "type": "integer",
+            "title": "The b_peptic schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_polyp": {
+            "$id": "#/properties/b_polyp",
+            "type": "integer",
+            "title": "The b_polyp schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_pos": {
+            "$id": "#/properties/b_pos",
+            "type": "integer",
+            "title": "The b_pos schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_prostatecancer": {
+            "$id": "#/properties/b_prostatecancer",
+            "type": "integer",
+            "title": "The b_prostatecancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_renalcancer": {
+            "$id": "#/properties/b_renalcancer",
+            "type": "integer",
+            "title": "The b_renalcancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "diabetes_cat": {
+            "$id": "#/properties/diabetes_cat",
+            "type": "integer",
+            "title": "The diabetes_cat schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_uterinecancer": {
+            "$id": "#/properties/b_uterinecancer",
+            "type": "integer",
+            "title": "The b_uterinecancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "ethrisk": {
+            "$id": "#/properties/ethrisk",
+            "type": "integer",
+            "title": "The ethrisk schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                8
+            ]
+        },
+        "fh_bloodcancer": {
+            "$id": "#/properties/fh_bloodcancer",
+            "type": "integer",
+            "title": "The fh_bloodcancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "fh_breastcancer": {
+            "$id": "#/properties/fh_breastcancer",
+            "type": "integer",
+            "title": "The fh_breastcancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "fh_gicancer": {
+            "$id": "#/properties/fh_gicancer",
+            "type": "integer",
+            "title": "The fh_gicancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "fh_lungcancer": {
+            "$id": "#/properties/fh_lungcancer",
+            "type": "integer",
+            "title": "The fh_lungcancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "fh_ovariancancer": {
+            "$id": "#/properties/fh_ovariancancer",
+            "type": "integer",
+            "title": "The fh_ovariancancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "fh_prostatecancer": {
+            "$id": "#/properties/fh_prostatecancer",
+            "type": "integer",
+            "title": "The fh_prostatecancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "smoke_cat": {
+            "$id": "#/properties/smoke_cat",
+            "type": "integer",
+            "title": "The smoke_cat schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                4
+            ]
+        },
+        "surv": {
+            "$id": "#/properties/surv",
+            "type": "integer",
+            "title": "The surv schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                10
+            ]
+        },
+        "height": {
+            "$id": "#/properties/height",
+            "type": "number",
+            "title": "The height schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+                178.0
+            ]
+        },
+        "weight": {
+            "$id": "#/properties/weight",
+            "type": "number",
+            "title": "The weight schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+                78.0
+            ]
+        },
+        "gender": {
+            "$id": "#/properties/gender",
+            "type": "integer",
+            "title": "The gender schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        }
+    },
+    "additionalProperties": true
+}

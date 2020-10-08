@@ -1,0 +1,261 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "age": 47,
+            "b_AF": 0,
+            "b_atypicalantipsy": 0,
+            "b_corticosteroids": 0,
+            "b_impotence2": 0,
+            "b_migraine": 0,
+            "b_ra": 0,
+            "b_renal": 0,
+            "b_semi": 0,
+            "b_sle": 0,
+            "b_treatedhyp": 0,
+            "diabetes_cat": 0,
+            "rati": 2.0,
+            "sbp": 80.0,
+            "sbps5": 35.0,
+            "ethrisk": 8,
+            "smoke_cat": 4,
+            "surv": 10,
+            "gender": 1,
+            "height": 178.0,
+            "weight": 78.0
+        }
+    ],
+    "required": [
+        "age",
+        "b_AF",
+        "b_atypicalantipsy",
+        "b_corticosteroids",
+        "b_migraine",
+        "b_ra",
+        "b_renal",
+        "b_semi",
+        "b_sle",
+        "b_treatedhyp",
+        "diabetes_cat",
+        "smoke_cat",
+        "gender",
+    ],
+    "properties": {
+        "age": {
+            "$id": "#/properties/age",
+            "type": "integer",
+            "title": "The age schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                47
+            ]
+        },
+        "b_AF": {
+            "$id": "#/properties/b_AF",
+            "type": "integer",
+            "title": "The b_AF schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_atypicalantipsy": {
+            "$id": "#/properties/b_atypicalantipsy",
+            "type": "integer",
+            "title": "The b_atypicalantipsy schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_corticosteroids": {
+            "$id": "#/properties/b_corticosteroids",
+            "type": "integer",
+            "title": "The b_corticosteroids schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_impotence2": {
+            "$id": "#/properties/b_impotence2",
+            "type": "integer",
+            "title": "The b_impotence2 schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_migraine": {
+            "$id": "#/properties/b_migraine",
+            "type": "integer",
+            "title": "The b_migraine schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_ra": {
+            "$id": "#/properties/b_ra",
+            "type": "integer",
+            "title": "The b_ra schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_renal": {
+            "$id": "#/properties/b_renal",
+            "type": "integer",
+            "title": "The b_renal schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_semi": {
+            "$id": "#/properties/b_semi",
+            "type": "integer",
+            "title": "The b_semi schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_sle": {
+            "$id": "#/properties/b_sle",
+            "type": "integer",
+            "title": "The b_sle schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_treatedhyp": {
+            "$id": "#/properties/b_treatedhyp",
+            "type": "integer",
+            "title": "The b_treatedhyp schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "diabetes_cat": {
+            "$id": "#/properties/diabetes_cat",
+            "type": "integer",
+            "title": "The diabetes_cat schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "rati": {
+            "$id": "#/properties/rati",
+            "type": "number",
+            "title": "The rati schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+                2.0
+            ]
+        },
+        "sbp": {
+            "$id": "#/properties/sbp",
+            "type": "number",
+            "title": "The sbp schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+                80.0
+            ]
+        },
+        "sbps5": {
+            "$id": "#/properties/sbps5",
+            "type": "number",
+            "title": "The sbps5 schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+                35.0
+            ]
+        },
+        "ethrisk": {
+            "$id": "#/properties/ethrisk",
+            "type": "integer",
+            "title": "The ethrisk schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                8
+            ]
+        },
+        "smoke_cat": {
+            "$id": "#/properties/smoke_cat",
+            "type": "integer",
+            "title": "The smoke_cat schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                4
+            ]
+        },
+        "surv": {
+            "$id": "#/properties/surv",
+            "type": "integer",
+            "title": "The surv schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                10
+            ]
+        },
+        "gender": {
+            "$id": "#/properties/gender",
+            "type": "integer",
+            "title": "The gender schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        },
+        "height": {
+            "$id": "#/properties/height",
+            "type": "number",
+            "title": "The height schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+                178.0
+            ]
+        },
+        "weight": {
+            "$id": "#/properties/weight",
+            "type": "number",
+            "title": "The weight schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0.0,
+            "examples": [
+                78.0
+            ]
+        }
+    },
+    "additionalProperties": true
+}
