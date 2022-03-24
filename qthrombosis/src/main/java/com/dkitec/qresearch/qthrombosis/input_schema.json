@@ -1,0 +1,209 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "age": 47,
+            "b_CCF": 0,
+            "b_admit": 0,
+            "b_antipsychotic": 0,
+            "b_anycancer": 0,
+            "b_cop": 0,
+            "b_copd": 0,
+            "b_hrt": 0,
+            "b_ibd": 0,
+            "b_renal": 0,
+            "b_tamoxifen": 0,
+            "b_varicosevein": 0,
+            "smoke_cat": 1,
+            "gender": 0,
+            "height": 168,
+            "weight": 58
+        }
+    ],
+    "required": [
+        "age",
+        "b_CCF",
+        "b_admit",
+        "b_antipsychotic",
+        "b_anycancer",
+        "b_cop",
+        "b_copd",
+        "b_hrt",
+        "b_ibd",
+        "b_renal",
+        "b_tamoxifen",
+        "b_varicosevein",
+        "smoke_cat",
+        "gender",
+        "height",
+        "weight"
+    ],
+    "properties": {
+        "age": {
+            "$id": "#/properties/age",
+            "type": "integer",
+            "title": "The age schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                47
+            ]
+        },
+        "b_CCF": {
+            "$id": "#/properties/b_CCF",
+            "type": "integer",
+            "title": "The b_CCF schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_admit": {
+            "$id": "#/properties/b_admit",
+            "type": "integer",
+            "title": "The b_admit schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_antipsychotic": {
+            "$id": "#/properties/b_antipsychotic",
+            "type": "integer",
+            "title": "The b_antipsychotic schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_anycancer": {
+            "$id": "#/properties/b_anycancer",
+            "type": "integer",
+            "title": "The b_anycancer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_cop": {
+            "$id": "#/properties/b_cop",
+            "type": "integer",
+            "title": "The b_cop schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_copd": {
+            "$id": "#/properties/b_copd",
+            "type": "integer",
+            "title": "The b_copd schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_hrt": {
+            "$id": "#/properties/b_hrt",
+            "type": "integer",
+            "title": "The b_hrt schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_ibd": {
+            "$id": "#/properties/b_ibd",
+            "type": "integer",
+            "title": "The b_ibd schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_renal": {
+            "$id": "#/properties/b_renal",
+            "type": "integer",
+            "title": "The b_renal schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_tamoxifen": {
+            "$id": "#/properties/b_tamoxifen",
+            "type": "integer",
+            "title": "The b_tamoxifen schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "b_varicosevein": {
+            "$id": "#/properties/b_varicosevein",
+            "type": "integer",
+            "title": "The b_varicosevein schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "smoke_cat": {
+            "$id": "#/properties/smoke_cat",
+            "type": "integer",
+            "title": "The smoke_cat schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                1
+            ]
+        },
+        "gender": {
+            "$id": "#/properties/gender",
+            "type": "integer",
+            "title": "The gender schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                0
+            ]
+        },
+        "height": {
+            "$id": "#/properties/height",
+            "type": "integer",
+            "title": "The height schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                168
+            ]
+        },
+        "weight": {
+            "$id": "#/properties/weight",
+            "type": "integer",
+            "title": "The weight schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": 0,
+            "examples": [
+                58
+            ]
+        }
+    },
+    "additionalProperties": true
+}
