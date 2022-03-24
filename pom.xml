@@ -8,9 +8,12 @@
   <name>algorithm</name>
   <description>QResearch Main Project</description>
   <modules>
-  	<module>qdiabetes</module>
-	<module>qrisk2</module>
-    <module>common</module>
-    <module>qcancer</module>
+	  <module>qdiabetes</module>
+	  <module>qrisk2</module>
+	  <module>common</module>
+	  <module>qcancer</module>
+	  <module>qfracture</module>
+	  <module>qkidney</module>
+	  <module>qthrombosis</module>
   </modules>
 </project>
